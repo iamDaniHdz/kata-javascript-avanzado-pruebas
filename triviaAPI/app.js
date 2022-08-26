@@ -26,3 +26,22 @@ correctButton.addEventListener("click", () => {
     alert("Correct! YOU ARE SO SMART")
     sendApiRequest()
 })
+
+let incorrectButton1 = document.querySelector("#answer2")
+let incorrectButton2 = document.querySelector("#answer3")
+let incorrectButton3 = document.querySelector("#answer4")
+
+incorrectButton1.addEventListener("click", () => {
+    alert("Incorrect answer")
+    sendApiRequest()
+})
+
+incorrectButton2.addEventListener("click", () => {
+    alert("Incorrect answer")
+    sendApiRequest()
+})
+
+incorrectButton3.addEventListener("click", () => {
+    alert("Incorrect answer")
+    sendApiRequest()
+})
